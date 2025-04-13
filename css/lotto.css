@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f9f9f9;
+  font-family: "Arial", sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.numbers {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px; /* 숫자 간격 증가 */
+  margin-bottom: 30px; /* 숫자 그룹과 버튼 간격 증가 */
+}
+
+.number-box {
+  font-size: 32px; /* 폰트 크기 키움 */
+  font-weight: bold;
+  padding: 20px; /* 여백 키움 */
+  width: 80px; /* 박스 크기 키움 */
+  height: 80px; /* 박스 크기 키움 */
+  border-radius: 50%;
+  border: 3px solid #444;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Pacifico", cursive;
+}
+
+/* 보너스 번호 고정 스타일 */
+#bonus {
+  background-color: #ffffff;
+  border-color: #000000;
+  color: #000000;
+}
+
+.plus {
+  font-size: 32px; /* + 기호 크기 키움 */
+  font-weight: bold;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  padding: 15px 30px; /* 버튼 여백 키움 */
+  font-size: 24px; /* 버튼 폰트 크기 키움 */
+  font-weight: bold;
+  background: linear-gradient(
+    145deg,
+    #ffcc00,
+    #ff9900
+  ); /* 행운 느낌 그라데이션 */
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s ease-in-out;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2); /* 그림자 효과 증가 */
+}
+
+button:hover {
+  background: linear-gradient(
+    145deg,
+    #ff9900,
+    #ffcc00
+  ); /* 버튼 그라데이션 반전 */
+  transform: scale(1.1); /* 클릭 시 크기 증가 */
+}
+
+/* 구간별 색상 */
+.yellow {
+  background-color: white;
+  border-color: #fbc02d;
+  color: #fbc02d;
+}
+.blue {
+  background-color: white;
+  border-color: #2196f3;
+  color: #2196f3;
+}
+.red {
+  background-color: white;
+  border-color: #e53935;
+  color: #e53935;
+}
+.green {
+  background-color: white;
+  border-color: #43a047;
+  color: #43a047;
+}
+.purple {
+  background-color: white;
+  border-color: #8e24aa;
+  color: #8e24aa;
+}

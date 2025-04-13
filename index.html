@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>로또 행운 뽑기</title>
+    <link rel="stylesheet" href="./css/lotto.css" />
+    <script src="./js/lotto.js" defer></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="numbers">
+        <div class="number-box" id="first">오</div>
+        <div class="number-box" id="second">늘</div>
+        <div class="number-box" id="third">의</div>
+        <div class="number-box" id="fourth">행</div>
+        <div class="number-box" id="fifth">운</div>
+        <div class="number-box" id="sixth">은</div>
+
+        <!-- + 표시 -->
+        <div class="plus">+</div>
+
+        <div class="number-box" id="bonus">?</div>
+      </div>
+      <button style="margin-top: 30px" onclick="showRandomNumber()">
+        행운 뽑기!
+      </button>
+    </div>
+  </body>
+</html>
